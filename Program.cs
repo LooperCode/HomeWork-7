@@ -43,7 +43,7 @@ void Average (int [,] arrayInt){
             avg = avg + arrayInt[j, i];
         }
         avg = avg / arrayInt.GetLength(0);
-          Console.Write($"{Math.Round(avg, 1)}; ");                                //почему то не выводит разделитель       //Console.Write($"{string.Join("; ", Math.Round(avg, 2))}");
+          Console.Write($"{Math.Round(avg, 1)}; ");    //почему то не выводит разделитель       //Console.Write($"{string.Join("; ", Math.Round(avg, 2))}");
     }
     
 }
