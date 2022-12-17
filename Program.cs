@@ -64,22 +64,22 @@ if (choice == 1){
         Console.Write("Нужно ли провести поиск элемента? 1 - да, 2 - нет: ");
 choice = Convert.ToInt32(Console.ReadLine());
     if (choice == 2) {
-    Console.WriteLine("Нужно ли посчитать среднее арифметическое каждого столбца?: 1 - да, 2 - нет: ");
-    choice = Convert.ToInt32(Console.ReadLine());
-        if (choice == 1){
-        Average(arrayInt);
+        Console.WriteLine("Нужно ли посчитать среднее арифметическое каждого столбца?: 1 - да, 2 - нет: ");
+        choice = Convert.ToInt32(Console.ReadLine());
+            if (choice == 1){
+                Average(arrayInt);
     }
-        else if (choice == 2){
-        Console.Write("Программа завершена");
+            else if (choice == 2){
+                Console.Write("Программа завершена");
     }
 }
 
     else if (choice == 1) {
-Console.Write("Введите номер строки: ");
-int yPosition = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите номер индекса: ");
-int xPosition = Convert.ToInt32(Console.ReadLine());
-CheckPositionInt(arrayInt, xPosition, yPosition);
+        Console.Write("Введите номер строки: ");
+        int yPosition = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Введите номер индекса: ");
+        int xPosition = Convert.ToInt32(Console.ReadLine());
+        CheckPositionInt(arrayInt, xPosition, yPosition);
 }
 }
 
@@ -90,14 +90,14 @@ else if (choice == 2){
 
     Console.Write("Нужно ли провести поиск элемента? 1 - да, 2 - нет: ");
 choice = Convert.ToInt32(Console.ReadLine());
-if (choice == 2) {
+    if (choice == 2) {
     Console.WriteLine("Программа завершена");
     }
-else if (choice == 1) {
-Console.Write("Введите номер строки: ");
-int yPosition = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите номер индекса: ");
-int xPosition = Convert.ToInt32(Console.ReadLine());
+    else if (choice == 1) {
+        Console.Write("Введите номер строки: ");
+        int yPosition = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Введите номер индекса: ");
+        int xPosition = Convert.ToInt32(Console.ReadLine());
 CheckPosition(array, xPosition, yPosition);
     }
 }
